@@ -30,10 +30,11 @@ public class Main {
 
         LibraryBook b2 = new LibraryBook("Java Programming");
 
-        LibraryBook b3 = new LibraryBook("Data Structures", 900);
+        LibraryBook b3 = new LibraryBook("Ethical Hacking", 1500);
 
         b1.display();
         b2.display();
         b3.display();
     }
+
 }
