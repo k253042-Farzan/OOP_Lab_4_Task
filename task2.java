@@ -22,12 +22,12 @@ class Employee {
 public class Main {
     public static void main(String[] args) {
 
-        Employee emp1 = new Employee("Ali", 50000);
+        Employee emp1 = new Employee("Hasan", 65000);
 
         Employee emp2 = new Employee(emp1);
 
-        emp2.name = "Ahmed";
-        emp2.salary = 70000;
+        emp2.name = "Farzan";
+        emp2.salary = 80000;
 
         System.out.println("Original Employee:");
         emp1.display();
@@ -35,4 +35,5 @@ public class Main {
         System.out.println("Duplicate Employee:");
         emp2.display();
     }
+
 }
