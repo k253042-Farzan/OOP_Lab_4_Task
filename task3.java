@@ -25,7 +25,6 @@ class Mobile {
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Price: " + price);
-        System.out.println("--------------------");
     }
 }
 
@@ -33,13 +32,14 @@ public class Main {
     public static void main(String[] args) {
 
         Mobile m1 = new Mobile();
-        Mobile m2 = new Mobile("Samsung");
-        Mobile m3 = new Mobile("Apple", "iPhone 14");
-        Mobile m4 = new Mobile("Xiaomi", "Redmi Note 12", 65000);
+        Mobile m2 = new Mobile("Samsung", "S25 Ultra", 300000);
+        Mobile m3 = new Mobile("Apple", "iPhone 17 Pro");
+        Mobile m4 = new Mobile("Nokia", "Nokia 3310", 3000);
 
         m1.display();
         m2.display();
         m3.display();
         m4.display();
     }
+
 }
